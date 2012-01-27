@@ -7,7 +7,7 @@
 # This utility will convert a simple, human-readable Contacts CSV to a format that's
 # compatible with Nokia PC Suite. Had to write a utility to do this because standard
 # Microsoft Outlook CSV exports weren't reading in Nokia PC Suite. Figured out it was because
-# NPCS wants all these extraneous fields and utf-16 encoding. Obviously.
+# NPCS wants all these extraneous fields and utf-16 encoding. Obviously. :)
 #
 # Format your Contacts CSV like this: "First Name","Last Name","Mobile Phone"
 #

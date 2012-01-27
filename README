@@ -4,19 +4,19 @@ Author: ashwini@majestik.net
 
  This utility will convert a simple, human-readable Contacts CSV to a format that's
  compatible with Nokia PC Suite. Had to write a utility to do this because standard
- Microsoft Outlook CSV exports weren't reading in Nokia PC Suite. Figured out it was because
- NPCS wants all these extraneous fields and utf-16 encoding. Obviously. :)
+ Microsoft Outlook CSV exports weren't reading in Nokia PC Suite. Eventually
+ I figured out it was because Nokia PC Suite wanted all these extraneous fields
+ in the CSV, and the file had to have utf-16 encoding. Obviously! ;)
+
+
 
  Format your Contacts CSV like this: "First Name","Last Name","Mobile Phone"
+ Anything after the first 3 fields is ignored. F1 = First, F2 = Last, F3 = Mobile.
 
+ Then run 'python nconvert.py' and get a compatible CSV which you can import! Done!
 
-
-
- Just run 'python nconvert.py' to start.
 
  Tested w/ Python 2.7.1
-
-
 
  (Legal notice: I am not affiliated in any way with Nokia or Microsoft.)
 

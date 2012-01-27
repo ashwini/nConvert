@@ -17,7 +17,7 @@
 __author__ = 'ashwini@majestik.net'
 
 
-print "nConvert v1.1 - Utility to convert CSV to a Nokia-CSV format for import in Nokia PC Suite\r\n"
+print "nConvert v1.1 - Utility to convert a simple CSV to Nokia-PC-Suite-CSV format.\r\n"
 
 inputfile = raw_input('Please enter the name of your CSV file (e.g. my_contacts.csv): ')
 
